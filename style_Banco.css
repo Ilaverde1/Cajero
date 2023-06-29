@@ -1,0 +1,55 @@
+body{
+    background-image: linear-gradient(to right, #A5CBC3,#3B341F);
+}
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color:#EFFFC8;
+    font-size: 3em;
+    text-align: center;
+}
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+div {
+    background: #A5CBC3;
+    position: absolute;
+    height: 40%;
+    width: 60%;
+    left: 20%;
+    top: 30%;
+    
+}
+button {
+    position: relative;
+    left: 3%;
+    align-items: center;
+    display: flex;
+    display: flow-root;
+    height: 30px;
+    width: 120px;
+    background: #100B00;
+    color: #EFFFC8;
+    border-radius: 50%;
+    border: solid 1px
+    
+}
+button:hover{
+    background: #EFFFC8;
+    color: #100B00;
+    
+}
+#resultado {
+    background:#A5CBC3;
+    position: absolute;
+    height: 25%;
+    width: 30%;
+    left: 45%;
+    top: 40%;
+}
+#aceptar{
+    position: relative;
+    top:14%;
+    
+}

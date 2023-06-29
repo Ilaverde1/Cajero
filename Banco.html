@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco</title>
+    <link rel="stylesheet" href="style_Banco.css">
+    <script src="operaciones.js"></script>
+</head>
+<body>
+
+    <h1 > Bienvenido </h1>
+    
+        <div>
+        <h2>Seleccione la operacion que desea realizar:</h2>
+        <button type="button" id="Retirar" onclick="retirarMonto(event)">Retirar Monto</button><br><br>
+        <button type="button" id="consultar" onclick= "consultarSaldo(event)">Consultar Monto </button><br><br>
+        <button type="button" id="ingresar" onclick="ingresarMonto(event)">Ingresar Monto</button>
+        <p id="Mensaje_Consultar"></p>
+    </div>
+    <button onclick="location.href= 'index.html'">Volver al Inicio</button>
+    <div id="resultado" style="display: none;" >
+        <label for="ingreso"id="ingreso1"></label><br>
+        <input type="number" name="ingreso" id="ingreso" required placeholder="Ingresa el monto"><br>
+        <button type="button" id="aceptar" >Aceptar</button>
+        
+    </div>
+        <p id="mensaje"></p>
+        <p id="saldo"></p>
+</body>
+</html>

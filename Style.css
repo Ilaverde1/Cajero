@@ -1,0 +1,46 @@
+body{
+    background-image: linear-gradient(to right, #A5CBC3,#3B341F);
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 4em;
+    text-align: center;
+
+}
+#formulario_ingreso{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1em;
+    position: absolute;
+    align-content: center;
+    top: 30%;
+    height: 30%;
+    width: 40%;
+    left: 40%;   
+}
+
+#ingresar{
+    position: absolute;
+    align-content: center;
+    border-radius: 7%;
+    font-size: medium ;
+    font-weight: bold;
+    height: 30px;
+    width: 90px;
+    top: 70%;
+    left: 10%;
+    
+}
+#ingresar:hover{
+    background: #85CB33;
+}
+#error-mensaje {
+    
+    position: absolute;
+    width: 95%;
+    text-align: center;
+    top: 60%;
+    color: red;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
